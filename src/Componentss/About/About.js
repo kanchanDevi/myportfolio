@@ -3,19 +3,7 @@ import './index.css';
 import Pic from '/assests/p-photo.png';
 
 const About =()=>{
-    // const onButtonClick = () => {
-	// 	// using Java Script method to get PDF file
-	// 	fetch('https://publuu.com/flip-book/254556/601310/page/1').then(response => {
-	// 		response.blob().then(blob => {
-	// 			// Creating new object of PDF file
-	// 			const fileURL = window.URL.createObjectURL(blob);
-	// 			// Setting various property values
-	// 			let alink = document.createElement('a');
-	// 			alink.href = fileURL;
-	// 			alink.download = 'https://publuu.com/flip-book/254556/601310/page/1';
-	// 			alink.click();
-	// 		})
-	// 	})
+   
     
     return(
         <>
