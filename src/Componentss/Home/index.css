@@ -1,0 +1,319 @@
+.details-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left:120px;
+    padding-right:120px;
+    
+}
+.name-details{
+   
+    margin-top:54px;
+}
+
+.role{
+    font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+text-transform: uppercase;
+color: #FDC435;
+}
+.full-name{
+    font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+color: #25282B;
+font-family: 'Playfair Display';
+}
+
+.details{
+    font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+margin-top:12px;
+
+color: #828282;
+}
+.buttons{
+    display: flex;
+    margin-top:32px;
+}
+.project-button{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 24px;
+margin-right:12px;
+
+height: 43px;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+
+
+color: #25282B;
+border:0px;
+background: #FDC435;
+border-radius: 8px;
+}
+.linkedin-button{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 24px;
+
+height: 43px;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+
+color: #25282B;
+
+border: 2px solid #25282B;
+border-radius: 8px;
+}
+.card{
+    width: 424px;
+height: 424px;
+border-radius: 50%;
+margin-top:12px;
+
+}
+.profile-image{
+    border-radius: 600px;
+    border-radius: 50%;
+    width: 404px;
+    height: 404px;
+}
+
+.button-styles, .linkedin-button-styles{
+    text-decoration: none;
+}
+@media (max-width:576px){
+    .details-container{
+        display:flex;
+        flex-direction: column;
+        padding-left:20px;
+        padding-right:20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .name-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:20px;
+    }
+    .role{
+        align-items: center;
+    }
+    .full-name{
+        font-size: 30px;
+        align-items: center;
+    }
+   
+    .image-details{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-section{
+        margin-top:15px;
+    }
+    .profile-image{
+        height:250px;
+        width:250px;
+    }
+   
+    .card{
+        width:243px;
+        height:200px;
+    }
+    .project-heading{
+        margin-bottom:80px;
+    }
+    .projects-card{
+        padding-left:20px;
+        padding-right:20px;
+        margin-bottom:100px;
+    }
+    .project-details-sections{
+        flex-direction: column;
+        margin-bottom:232px;
+        height:400px;
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;    }
+    .project-name{
+        text-align: center;
+    }
+    .card-container{
+        margin-bottom:0px;
+    }
+    .project-image{
+        border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+
+}
+
+@media (max-width:768px) and (max-width:990px){
+    .details-container{
+        display:flex;
+        /* flex-direction: row; */
+        padding-left:20px;
+        padding-right:20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .name-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding:20px;
+    }
+    .role{
+        align-items: center;
+        white-space:nowrap;
+    }
+    .full-name{
+        font-size: 15px;
+        align-items: center;
+    }
+   .details{
+    font-size:12px;
+   }
+    .image-details{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-section{
+        margin-top:15px;
+    }
+    .profile-image{
+        height:230px;
+        width:230px;
+    }
+   
+    .card{
+        width:243px;
+        height:200px;
+    }
+    .project-heading{
+        margin-bottom:80px;
+    }
+    .projects-card{
+        padding-left:20px;
+        padding-right:20px;
+        margin-bottom:100px;
+    }
+    .project-details-section{
+        /* margin-bottom:62px; */
+display:flex;
+/* flex-direction:column; */
+justify-content: center;
+align-items: center;    }
+    .project-name{
+        text-align: center;
+    }
+    .card-container{
+        margin-bottom:0px;
+        padding-left:20px;
+        padding-right:20px;
+
+    }
+    .projects-details{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .project-image{
+        border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+
+}
+@media (min-width:1024px){
+    .details-container{
+        display:flex;
+        /* flex-direction: row; */
+        padding-left:120px;
+        padding-right:120px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .name-details{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        padding:20px;
+    }
+    .role{
+        align-items: center;
+        white-space:nowrap;
+    }
+    .full-name{
+        font-size: 15px;
+        align-items: center;
+    }
+   .details{
+    font-size:12px;
+   }
+    .image-details{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-section{
+        margin-top:15px;
+    }
+    .profile-image{
+        height:230px;
+        width:230px;
+    }
+   
+    .card{
+        width:243px;
+        height:200px;
+    }
+    .project-heading{
+        margin-bottom:80px;
+    }
+    .projects-card{
+        padding-left:20px;
+        padding-right:20px;
+        margin-bottom:100px;
+    }
+    .project-details-section{
+        /* margin-bottom:62px; */
+display:flex;
+/* flex-direction:column;  */
+justify-content: space-between;
+align-items: center;   
+margin-top:0px;
+  }
+    .card-container{
+        padding-left:120px;
+        padding-right:120px;
+        margin-bottom: 0px;
+    }
+  
+    .projects-details{
+        display: flex;
+        flex-direction: column;
+        /* align-items:center; */
+        padding-right:20px;
+    }
+    .project-image{
+        border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    }
+
+}
